@@ -1,0 +1,12 @@
+div {
+	background: red;
+	float:  left;
+	outline: 1px solid grey;
+
+}
+
+div:first-child: {
+
+	background: purple;
+	float:  right
+}

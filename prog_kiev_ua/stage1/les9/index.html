@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My 9 page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src='js/script.js'></script>
+</head>
+
+<body>
+
+
+	<div id="target"></div>
+
+	<button id="run">Run</button>
+	<button id="stop">Stop</button>
+
+	<script type="text/javascript">
+	
+		var target = document.getElementById('target'),
+			run = document.getElementById('run'),
+			stop = document.getElementById('stop');
+
+		run.OnClick = function(){
+			target.style.animationPlayState = 'running';
+		}
+
+		stop.OnClick = function(){
+			target.style.animationPlayState = 'paused';
+		}
+
+
+	</script>
+
+	
+	
+</body>
+</html>

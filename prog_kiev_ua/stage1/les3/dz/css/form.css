@@ -1,0 +1,30 @@
+/* Form */
+
+body {
+	font-family: Verdana, sans-serif;
+	color: #6a21db;
+}
+
+fieldset fieldset {
+	background-color: #f9eeee;
+}
+
+input, select, textarea {
+	outline: none;
+}
+
+input:valid {
+	border:  1px solid green;
+}
+
+input:invalid {
+	border:  1px solid red;
+}
+
+
+label {
+	display: inline-block;
+	margin-top: 10px;
+	cursor: pointer;
+}
+

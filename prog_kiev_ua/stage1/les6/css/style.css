@@ -1,0 +1,14 @@
+body {
+
+
+}
+
+div {
+	width: 200px;
+	padding: 20px;
+	background: red;
+	border:  5px solid green;
+	/* display: inline-block; */
+	float:  left;
+	margin-left: -100px;
+}

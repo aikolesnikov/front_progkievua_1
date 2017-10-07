@@ -1,0 +1,67 @@
+a {
+
+	color:  blue;
+}
+
+a:visited {
+
+	color:  grey;
+}
+
+a:hover {
+
+	color:  brown;
+}
+
+a:active {
+	color:  red;
+}
+
+
+div {
+	width: 500px;
+	height: 75px;
+	background: 100px;
+}
+
+div:hover {
+	background: lightgreen;
+}
+
+div:empty {
+	background-color: lightgrey;
+}
+
+
+div:target {
+	color:  black;
+}
+
+p {
+	display:  none;
+}
+
+input:checked + p {
+
+	display: block;
+}
+
+input {
+	outline: none;
+}
+
+input:focus {
+	border: 1px solid green;
+
+}
+
+#circle {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: red;
+
+}
+
